@@ -8,7 +8,7 @@ int main() {
 	cin >> number;
 	while (number <= 0)
 	{
-		cout << "Число меньше или равно нулю. Введите другое";
+		cout << "Число меньше или равно нулю. Введите другое: ";
 		cin >> number;
 	}
 	while (number != 0)
