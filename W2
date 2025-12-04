@@ -6,9 +6,10 @@ int main() {
 	int summ = 0;
 	cout << "[ + ] Введите число: ";
 	cin >> number;
-	if (number <= 0)
+	while (number <= 0)
 	{
 		cout << "Число меньше или равно нулю. Введите другое";
+		cin >> number;
 	}
 	while (number != 0)
 	{
